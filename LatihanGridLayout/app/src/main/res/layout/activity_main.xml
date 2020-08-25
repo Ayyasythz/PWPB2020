@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LatihanGridLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="3"
+
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonA"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/buttonE"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="E" />
+
+    <Button
+        android:id="@+id/buttonF"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="F" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="G" />
+
+    <Button
+        android:id="@+id/buttonH"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="H" />
+
+    <Button
+        android:id="@+id/buttonI"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="I" />
+
+    <Button
+        android:id="@+id/buttonJ"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="J" />
+
+    <Button
+        android:id="@+id/buttonK"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="K" />
+
+    <Button
+        android:id="@+id/buttonL"
+        android:background="?android:attr/windowBackground"
+        android:padding="30dp"
+        android:text="L" />
+</GridLayout>
