@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expilicitintent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Klik disini untuk Explict Intent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expilicitintent2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Klik disini untuk Explict Intent 2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/implicitintent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Klik disini untuk Implicit Intent"/>
+
+
+</RelativeLayout>
