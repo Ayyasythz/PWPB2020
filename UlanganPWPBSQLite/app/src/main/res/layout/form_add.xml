@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+
+
+                <EditText
+                    android:id="@+id/edtnama_buku"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="@string/enter_nama_buku"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColorHint="@color/colorBlack"
+                    android:padding="12dp"/>
+
+                <EditText
+                    android:id="@+id/edtpengarang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_penulis"
+                    android:textSize="12dp"
+                    android:maxLines="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:padding="12dp"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/edtpenerbit"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_penerbit"
+                    android:textSize="12dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:padding="12dp"
+                    android:inputType="text"/>
+
+
+
+</LinearLayout>

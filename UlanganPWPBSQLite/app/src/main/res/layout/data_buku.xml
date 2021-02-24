@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+            <TextView
+                android:id="@+id/txtnama_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="NAMA BUKU : "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/ctxtnama_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/txtnama_buku"
+                android:text="s "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"/>
+                <TextView
+                android:id="@+id/txtpengarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtnama_buku"
+                android:text="PENULIS / PENGARANG : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/ctxtpengarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ctxtnama_buku"
+                android:layout_toRightOf="@id/txtpengarang"
+                android:text="s "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtpenerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpengarang"
+                android:text="PENERBIT : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/ctxtpenerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ctxtpengarang"
+                android:layout_toRightOf="@+id/txtpenerbit"
+                android:text="s"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgdelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_menu_delete"/>
+            <ImageView
+                android:id="@+id/imgedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_below="@id/imgdelete"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

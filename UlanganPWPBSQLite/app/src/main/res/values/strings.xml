@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UlanganPWPBSQLite</string>
+    <string name="enter_no_seri">Masukan No Seri</string>
+    <string name="enter_nama_buku">Masukan Nama Buku</string>
+    <string name="enter_penulis">Masukan Penulis</string>
+    <string name="enter_penerbit">Masukan Penerbit</string>
+</resources>
